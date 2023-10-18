@@ -9,7 +9,7 @@ app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
 const openai = new OpenAI({
-  apiKey: "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", // defaults to process.env["OPENAI_API_KEY"]
+  apiKey: "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", // defaults to process.env["OPENAI_API_KEY"]
 });
 
 async function main(input) {
